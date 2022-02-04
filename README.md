@@ -21,6 +21,12 @@
   5.- Enjoy!! :)
   
   
+  6.- For Player 1(RED) the move up is 'A' and the move down is 'z'  
+  
+  
+  7.- For Player 1(BLUE) the move up is 'k' and the move down is 'm'  
+  
+  
 
 
 ![image](https://user-images.githubusercontent.com/77840319/152579695-2c47aec2-8db3-429f-97b5-0120b1ff5e8d.png)
