@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{668547D4-45F1-308E-84CF-AB66A62D5D68}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\carlo\Desktop\Pong-Game\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/carlo/Desktop/Pong-Game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/carlo/Desktop/Pong-Game -BC:/Users/carlo/Game_Pojects_Builds/Game--Pong --check-stamp-file C:/Users/carlo/Game_Pojects_Builds/Game--Pong/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeCCompiler.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeCXXCompiler.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeRCCompiler.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/carlo/Desktop/Pong-Game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/carlo/Desktop/Pong-Game -BC:/Users/carlo/Game_Pojects_Builds/Game--Pong --check-stamp-file C:/Users/carlo/Game_Pojects_Builds/Game--Pong/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeCCompiler.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeCXXCompiler.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeRCCompiler.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/carlo/Desktop/Pong-Game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/carlo/Desktop/Pong-Game -BC:/Users/carlo/Game_Pojects_Builds/Game--Pong --check-stamp-file C:/Users/carlo/Game_Pojects_Builds/Game--Pong/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeCCompiler.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeCXXCompiler.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeRCCompiler.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/carlo/Desktop/Pong-Game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/carlo/Desktop/Pong-Game -BC:/Users/carlo/Game_Pojects_Builds/Game--Pong --check-stamp-file C:/Users/carlo/Game_Pojects_Builds/Game--Pong/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeCCompiler.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeCXXCompiler.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeRCCompiler.cmake;C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\3.22.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\carlo\Game_Pojects_Builds\Game--Pong\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\carlo\Game_Pojects_Builds\Game--Pong\ZERO_CHECK.vcxproj">
+      <Project>{27DEF18F-D394-30AC-B610-5ED809A50203}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\carlo\Game_Pojects_Builds\Game--Pong\PONGGAME.vcxproj">
+      <Project>{BFD9309C-80A9-3E2B-AA04-4F6A60F2249D}</Project>
+      <Name>PONGGAME</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\carlo\Game_Pojects_Builds\Game--Pong\lib\sfml\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{0991244C-41A0-313B-9F35-28061E18B8A0}</Project>
+      <Name>sfml-audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\carlo\Game_Pojects_Builds\Game--Pong\lib\sfml\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{DBF9C4A2-DED9-382F-A7B5-D17ED5A8B814}</Project>
+      <Name>sfml-graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\carlo\Game_Pojects_Builds\Game--Pong\lib\sfml\src\SFML\Main\sfml-main.vcxproj">
+      <Project>{53794A81-9016-341E-85E2-A1BC48B3FA89}</Project>
+      <Name>sfml-main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\carlo\Game_Pojects_Builds\Game--Pong\lib\sfml\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{D4EA49C9-90EA-33B1-A548-3F6BDF972B1E}</Project>
+      <Name>sfml-network</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\carlo\Game_Pojects_Builds\Game--Pong\lib\sfml\src\SFML\System\sfml-system.vcxproj">
+      <Project>{A3617F47-4898-3327-93E8-9784A6817C68}</Project>
+      <Name>sfml-system</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\carlo\Game_Pojects_Builds\Game--Pong\lib\sfml\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{0D0A47C3-91D9-3D28-BE54-A9A7D91F1ED5}</Project>
+      <Name>sfml-window</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

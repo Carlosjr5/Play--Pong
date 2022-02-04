@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/carlo/Desktop/Pong-Game/CMakeLists.txt
+  pong.cpp
+C:\Users\carlo\Desktop\Pong-Game\PongGame\pong.cpp(61,22): warning C4834: discarding return value of function with 'nodiscard' attribute
+  PONGGAME.vcxproj -> C:\Users\carlo\Game_Pojects_Builds\Game--Pong\bin\Debug\PONGGAME.exe

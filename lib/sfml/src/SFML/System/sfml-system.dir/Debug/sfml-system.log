@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/carlo/Desktop/Pong-Game/lib/sfml/src/SFML/System/CMakeLists.txt
+  Clock.cpp
+  Err.cpp
+  Sleep.cpp
+  String.cpp
+  Time.cpp
+  FileInputStream.cpp
+  MemoryInputStream.cpp
+  SleepImpl.cpp
+  Generating Code...
+     Creating library C:/Users/carlo/Game_Pojects_Builds/Game--Pong/lib/sfml/lib/Debug/sfml-system-d.lib and object C:/Users/carlo/Game_Pojects_Builds/Game--Pong/lib/sfml/lib/Debug/sfml-system-d.exp
+  sfml-system.vcxproj -> C:\Users\carlo\Game_Pojects_Builds\Game--Pong\bin\Debug\sfml-system-d-3.dll
